@@ -39,3 +39,7 @@ function blendWords(word1,word2){
     // Four: If different Combine first
     return word1+word2;
 }
+
+console.log(blendWords("Hello","Ekyhy"));
+console.log(blendWords("Cyber","research"));
+
