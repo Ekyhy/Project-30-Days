@@ -3,7 +3,3 @@
  - javascript
  - phyton
  
- Projek ini adalah projek 30 hari saya dalam konsiisten mengerjakan soal-soal logical programming yang meliputi  2 bahasa pemrograman yakni :
-   - Javascript
-   - Phyton
-
