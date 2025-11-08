@@ -14,7 +14,7 @@ function romanToDecimal(roman) {
 const rangeValue = roman.length;
 let result = 0;
     for (let i = 0; i < rangeValue; i++) {
-        if (i < rangeValue-1 && romanValue[roman[i]] < romanValue[romanValue[i+1]]) 
+        if (i < rangeValue-1 && romanValue[roman[i]] < romanValue[roman[i+1]]) 
             {
             result += romanValue[roman[i+1]] - romanValue[roman[i]];
             i++;
