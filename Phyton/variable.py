@@ -84,3 +84,22 @@ radius = 7
 # Acction for solution
 area_of_circle = math.pi * radius**2
 print(int(area_of_circle))
+
+# Task 2    : Calculate the circumference of a circle and assign the value to a variable name of circum_of_circle
+        #       We know that formula about circumference of a circle is 
+        #       2 * pi * radius
+# Action to solve
+# Declare variable name circum_of_circle
+circum_of_circle = 2 * (math.pi) * radius
+print(int(circum_of_circle))
+
+# Task 3 : Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
+
+# Declare variable to store input function from the user
+first_name_user = input("Input your first name: ")
+last_name_user  = input("Input your last name: ")
+country_user    = input("Input your country: ")
+age_user        = input("Input your current age: ")
+
+print(first_name_user,last_name_user,country_user,age_user)
+
