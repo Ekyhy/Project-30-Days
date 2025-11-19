@@ -94,3 +94,45 @@ mass = 80 # in a Kilogram
 volume = 0.075 # in cubic meter
 density = mass / volume
 print(density,'Kg/m^3')
+
+#============================ COMPARISON OPERATORS ============================
+print(4 > 2)
+print(4 >= 2)
+print(3 < 2)
+print(4 < 6)
+print(4 <= 7)
+print(3 == 8/2)
+print(3 != 5)
+
+print(len('mango') == len('orange')) # False, Because char in the mango don't equal to char i the orange
+print(len('mango') != len('avocado')) # True, Because char value in word mango and avocado don't equal
+print(len('avocado') < len('orange')) # False,  Because char value in avocado gather than char in orange
+
+# Comparing something gives either a True or False
+
+print('True == True: ', True == True)
+print('True == False: ', True == False)
+print('False == False:', False == False)
+
+# In addition to the above comparison operator Python uses:
+# is: Returns true if both variables are the same object(x is y)
+# is not: Returns true if both variables are not the same object(x is not y)
+# in: Returns True if the queried list contains a certain item(x in y)
+# not in: Returns True if the queried list doesn't have a certain item(x in y)
+
+print('2 is 2', 2 is 2) # [==]
+print('1 is 3', 1 is not 3) # [!=]
+print('K is Kevin Sanjaya', 'K' in 'Kevin Sanjaya')
+print('J is Kevin Sanjaya', 'J' in 'Kevin Sanjaya')
+
+#======================== LOGICAL OPERATORS =====================================
+#Logical AND
+print(4 > 1 and 4 > 5) # False
+print(4 > 2 and 6 > 3) # True
+#Logical OR
+print(4 > 5 or 7 > 5) # True
+print(8 < 2 or 5 < 1) # False 
+#Logical Negation
+print(not 4 > 2) # false
+print(not False) # true
+print(not True) # false
