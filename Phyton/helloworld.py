@@ -15,3 +15,7 @@ print(type([1,2,3,4]))
 print(type({'name':'Blogger'}))
 print(type({9.8,3.14,2.4}))
 print(type((9.8, 3.14, 2.7))) 
+
+
+name = 'Roberto Frionto'
+print(name)
