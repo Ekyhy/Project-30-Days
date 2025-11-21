@@ -63,4 +63,5 @@
    </ul>
 
 
-  <p>Thanks for stopping by! 😄</p>
+  <p>Thanks for your attention, keep going and moving on😄</p>
+
