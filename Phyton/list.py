@@ -188,3 +188,21 @@ print(fruits_and_countries.count('Belgium'))
 vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
 vegetables.reverse()
 print(vegetables)
+
+
+# ========== SORTING ITEMS =========================
+# Using sort()
+# Syntax
+# lst= ['item1','item2']
+# last.sort()               ascending
+# last.sort(reverse=true)   descending
+countries = ['Germany', 'France','Belgium','Sweden','Denmark','Finland','Norway','Iceland','Estonia']
+countries.sort()
+print(countries)    # Sorted in alphabet
+countries.sort(reverse=True)
+print(countries)
+
+# Using sorted()
+fruits = ['banana','melon','mango','apple','orange']
+print(sorted(fruits)) #ascending
+print(sorted(fruits,reverse=True)) #descending
